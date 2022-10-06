@@ -1,0 +1,112 @@
+
+
+html {
+    font-size: 82.5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+section {
+    margin: 4rem auto 8rem;
+}
+
+h2 {
+    margin-bottom: 1rem;
+    
+}
+
+
+.parent {
+    color: black;
+    display: flex;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 2rem;
+}
+
+.origin {
+    flex-basis: 100%;
+    flex-grow: 1;
+    padding: 1rem;
+}
+
+.draggable {
+    border: 1px solid #efefef;
+    background-color: #ddd;
+    cursor: grab;
+    font-weight: normal;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+.dropzone {
+    border: 2px dashed #ddd;
+    flex-basis: 100%;
+    flex-grow: 1;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.dropzone:hover {
+    border-color: #339;
+}
+
+
+.numbers {
+    position: absolute;
+    color: #333;
+    opacity: 35%;
+    z-index: 0;
+    font-weight: bolder;
+    font-size: 4rem;
+}
+.icon {
+    height: 75px;
+    width: 30px;
+    border-right: solid 1px;
+    border-bottom: solid 1px;
+    align-items: center;
+    margin-right: 0;
+}
+.seg-title {
+    text-align: left;
+    position: relative;
+    margin-left: 32px;
+    margin-top: -20px;
+}
+
+.seg-para {
+    font-size: 1rem;
+    margin-left: 32px;
+}
+footer {
+    background-color: #333;
+    color: #efefef;
+}
+span {
+    color: #0074FF;
+}
+.copyright {
+    text-align: right;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+@media (max-width: 620px) {
+    .container {
+        max-width: 560px;
+    }
+}
+
+
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: #fbb;
+        color: #33f;
+    }
+}
+
